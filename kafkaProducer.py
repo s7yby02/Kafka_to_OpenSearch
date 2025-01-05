@@ -13,6 +13,7 @@ producer = KafkaProducer(
 url = "https://stream.wikimedia.org/v2/stream/recentchange"
 
 try:
+    print("Kafka Producer is running...")
     # Stream data and send to Kafka
     for event in EventSource(url, last_id=None):
         if event.event == "message":
