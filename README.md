@@ -112,19 +112,5 @@ The consumer reads data from the Kafka topic and indexes it into the OpenSearch 
    - Password: `sdlSDFqkjgsd6842sdgkjsqdg+dfs:`
 3. Create an index pattern for `wikimedia` to visualize the data.
 
----
-
-## Troubleshooting
-
-- **Docker Issues**: Ensure Docker services are running and ports are not blocked.
-- **Kafka Connection**: Verify Kafka is reachable on `localhost:9092`.
-- **OpenSearch Connection**: Ensure OpenSearch is running on `localhost:9200` and credentials are correct.
-- **SSL Verification**: The consumer script disables SSL verification for simplicity. For production, enable certificate verification.
----
-
-## Acknowledgments
-
-- [Kafka-Python Documentation](https://kafka-python.readthedocs.io/)
-- [OpenSearch Documentation](https://opensearch.org/docs/)
-- [Wikimedia EventStream API](https://stream.wikimedia.org/)
+![OpenSearch Dashboard](./dashboard.png)
 
