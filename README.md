@@ -12,6 +12,8 @@ The system is containerized using Docker and orchestrated with `docker-compose`.
 
 
 ---
+## Output OpenSearch Dashboards
+![OpenSearch Dashboard](./dashboard.png)
 
 ## Directory Structure
 
@@ -25,8 +27,6 @@ Kafka_to_OpenSearch/
 ```
 
 ---
-## Output OpenSearch Dashboards
-![OpenSearch Dashboard](./dashboard.png)
 
 ## Prerequisites
 
